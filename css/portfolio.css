@@ -1,0 +1,28 @@
+[type="button"] {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--title-color);
+  background-color: #f5f4fa;
+}
+
+[type="button"]:hover,
+[type="button"]:focus {
+  color: #ffffff;
+  background-color: var(--hover-color);
+  cursor: pointer;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.portfolio-works {
+  font-size: 16px;
+  line-height: 1.88;
+}
