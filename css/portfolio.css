@@ -1,10 +1,27 @@
 [type="button"] {
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   color: var(--title-color);
   background-color: #f5f4fa;
+}
+
+[type="button"]:last-child {
+  margin-right: 0;
+}
+
+.port-filter-item {
+  margin-right: 8px;
+}
+
+.port-filter-item:last-child {
+  margin-right: 0;
 }
 
 [type="button"]:hover,
@@ -14,6 +31,26 @@
   cursor: pointer;
 }
 
+.port-filter {
+  padding-top: 94px;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  /* width: calc((100%-60px) / 3); */
+  width: 370px;
+  margin-right: 30px;
+}
+
+.portfolio-item:nth-child(3n) {
+  margin-right: 0;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
