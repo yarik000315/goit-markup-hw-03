@@ -86,7 +86,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  background-color: rgb(179, 160, 136);
+  /* background-color: rgb(179, 160, 136); */
 }
 /* HEADER */
 /* an altarnative version is writen in the comments */
@@ -94,6 +94,8 @@ body {
   display: flex;
   align-items: center;
   height: 80px;
+
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
