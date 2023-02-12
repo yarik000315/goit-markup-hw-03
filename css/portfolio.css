@@ -46,9 +46,7 @@
 .portfolio-item {
   margin-right: 30px;
   margin-bottom: 30px;
-  /* width: calc((100%-60px) / 3); */
-  /* Чому з"являється правий маржин в зображеннях коли додаю функцію calc */
-  width: 370px;
+  width: calc((100% - 60px) / 3);
 }
 
 .portfolio-item:nth-child(3n) {
@@ -59,9 +57,10 @@
   margin-bottom: 94px;
 }
 
+.portfolio-wrap {
+  padding: 20px 24px;
+}
 .portfolio-title {
-  margin-left: 24px;
-  margin-top: 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -70,7 +69,6 @@
 }
 
 .portfolio-works {
-  margin-left: 24px;
   margin-top: 4px;
   font-size: 16px;
   line-height: 1.88;
